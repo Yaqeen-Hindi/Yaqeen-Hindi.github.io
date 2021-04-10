@@ -47,3 +47,8 @@ a:link, a:visited,a:hover, a:active{
 	margin: 40%;
 	
 }
+button{
+   font-size:1vw;
+	width: 15%;
+}
+
