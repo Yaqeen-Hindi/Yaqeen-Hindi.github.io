@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Yaqeen Hindi</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<button type="button" onclick="window.print()">“Print Yaqeen Hindi Resume”.</button>
+
+<h1  onclick="Myfunction()"> Yaqeen Tawfeeq Mohammed Hindi</h1>
+<br>
+<br>
+<div >
+<img  src="yaqeen1.jpg"alt="Something went wrong" width="250"  >
+<br>
+<h2>&nbsp&nbsp&nbsp&nbsp academic and work background</h2>
+
+<p > A second year computer science student at An-Najah National University with<br> a high school diploma in 2019.
+I have experience in Microsoft programs<br> C ++ programming language,App Inventor, and SketchUp.
+</p><br>
+<br>
+<br>
+
+<h2 id="h2">list of your education background.</h2>
+
+<ul id="ule">
+  <li> Tel Girls School</li>
+  <li> Science and Culture Center</li>
+  <li> An-Najah National University</li>
+    <li> Edraak educational site</li>
+
+</ul> 
+<br>
+<h2 id="h2ex" onmouseover="aa()">A list of your work experiences.</h2>
+<ul id="ulex" onmouseover="aa()">
+  <li>Video montage</li>
+  
+  </ul>
+<br>
+<h2>A list of your hobbies.</h2>
+<ul>
+  <li>draw</li>
+   <li>embroidery</li>
+   <li>singing</li>
+   <li>Basketball</li>
+</ul> 
+<br>
+<a href="https://zajel.najah.edu">go to zajel</a>
+</div>
+<script>
+
+function Myfunction() {
+  alert("“Welcome to [Yaqeen Hindi] site, please let me know if you have any questions”");
+  }
+function aa()
+{
+document.getElementById("h2ex").onmouseover = function() {mouseOver()};
+document.getElementById("h2ex").onmouseout = function() {mouseOut()};
+document.getElementById("ulex").onmouseover = function() {mouseOver()};
+document.getElementById("ulex").onmouseout = function() {mouseOut()};
+}
+function mouseOver() {
+  document.getElementById("ule").style.color = "green";
+    document.getElementById("h2").style.color = "green";
+
+}
+
+function mouseOut() {
+  document.getElementById("ule").style.color = "black";
+    document.getElementById("h2").style.color = "black";
+
+
+}
+
+</script>
+</body>
+</html>
