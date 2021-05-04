@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +16,7 @@
 
 <p>please fill out the form below and hit submit to be considered for the internship</p>
 
-<form name="myForm" id ="myForm"  onsubmit="return validateForm()">
+<form name="myForm" id ="myForm">
   <fieldset>
     <legend>Personalia:</legend>
     <label for="fname">First name :<span class="required">* </span></label>
@@ -58,7 +59,7 @@
    </fieldset>
    <br>
    <div style="text-align:center;">
-   	    <input type="submit" value="Submit">
+   	    <input type="button" value="Submit" onclick="return validateForm()">
 	    <input type="button" onclick="save1()" value="save">
     <input type="button" onclick="newFunction()" value="Reset"><br><br>
    <div style="text-align:center;">
@@ -71,4 +72,3 @@
 </div>
 </body>
 </html>
-
