@@ -44,7 +44,7 @@ function myFunction(x)
 			 {
 				 x.style.borderColor="red";
 
-				 alert("please enter "+" "+y.elements[z].id+"\n");
+				 alert("please enter "+" "+y.elements[z].name+"\n");
 			 }
 			else{
 			 
