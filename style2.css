@@ -61,20 +61,16 @@ label {
 
 }
 input[type=submit] {
-  padding: 1vw 1vw;
   border-radius: 1vw;
-  cursor: pointer;
-  	background:yellow;
-	   font-size: 1vw;
+  background:yellow;
+  font-size: 1.5vw;
 
 
 }
 input[type=button] {
-	background:yellow;
-  padding: 1vw 1vw;
+  background:yellow;
   border-radius: 1vw;
-  cursor: pointer;
-     font-size: 1vw;
+   font-size: 1.5vw;
 
 }
 button{
@@ -82,7 +78,7 @@ button{
   padding: 1vw 1.4vw;
   border-radius: 4px;
   cursor: pointer;
-     font-size: 1vw;
+  font-size: 1vw;
 
 }
 legend{
